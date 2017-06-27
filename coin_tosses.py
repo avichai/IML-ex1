@@ -45,7 +45,7 @@ for eps in epsilon:
 
     plt.plot(xsis, perc, 'r', label='P[x_m-E[x]>eps')
 
-    plt.ylim([0, 1]) #if I wish to see only the error graph more clearly
+    plt.ylim([0, 1])  # if I wish to see only the error graph more clearly
     if eps == 0.001:
         plt.legend(loc='lower right')
     else:
